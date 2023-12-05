@@ -16,7 +16,7 @@ public class PlayerCollision : MonoBehaviour
         }
         if (collisionInfo.collider.name == "End")
         {
-            FindObjectOfType<GameManager>().CompleteLevel();
+            FindObjectOfType<EndTrigger>().OnTriggerEnter();
         }
     }
 }

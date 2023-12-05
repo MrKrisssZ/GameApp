@@ -1,5 +1,5 @@
-
 using UnityEngine;
+
 
 public class EndTrigger : MonoBehaviour
 {
@@ -8,5 +8,6 @@ public class EndTrigger : MonoBehaviour
     public void OnTriggerEnter()
     {
         gameManager.CompleteLevel();
+        
     }
 }
